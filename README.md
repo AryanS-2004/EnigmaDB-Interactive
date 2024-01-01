@@ -16,21 +16,9 @@ Enigma DB is a versatile, lightweight database built on top of PostgreSQL, trans
 
 To get started with Enigma DB, follow these simple steps:
 
-1. **Installation**: Install the necessary dependencies and configure your PostgreSQL servers by providing their respective connection strings in the `env.ts` file.
-
-2. **Creating Tables**: Run the provided initialization script to create the required tables for Enigma DB.
-
-3. **Interactive Mode**: Launch Enigma DB in interactive mode to start issuing commands using the CLI. Supported commands include GET, SET, DELETE, and EXPIRE.
-
-4. **Integration with Existing Database**: Easily integrate Enigma DB with your existing PostgreSQL database, turning it into a dynamic key-value store.
-
-## Usage Flow
-
-Follow these steps to effectively use Enigma DB in your project:
-
 ### 1. Configure PostgreSQL URLs
 
-Add the PostgreSQL URLs of your servers to the `env.ts` file.
+Start two PostgreSQL servers and add the PostgreSQL URLs of your servers to the `env.ts` file.
 
 ### 2. Compile TypeScript
 
@@ -40,10 +28,10 @@ Run the TypeScript compiler to convert your TypeScript files to JavaScript.
 tsc
 ```
 
-## Interactive Mode
+## 3. Run the Script
 
 Launch Enigma DB in interactive mode to execute commands using the CLI.
 
 ```bash
-node dist/interactive.js
+node dist/src/interactive.js
 ```
