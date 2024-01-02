@@ -35,3 +35,64 @@ Launch Enigma DB in interactive mode to execute commands using the CLI.
 ```bash
 node dist/src/interactive.js
 ```
+
+## Example
+
+### 1. SET
+
+- **Instruction**
+
+```bash
+SET KEY VALUE TTL 
+```
+
+- **Arguments**
+
+```
+KEY :-> string
+VALUE :-> string
+TTL :-> Number (Value in seconds)
+```
+
+### 2. GET
+
+- **Instruction**
+
+```bash
+GET KEY 
+```
+
+- **Arguments**
+
+```
+KEY :-> string
+```
+
+### 3. DELETE
+
+- **Instruction**
+  
+```bash
+DELETE KEY
+```
+
+- **Arguments**
+
+```
+KEY :-> string
+```
+
+### 4. EXPIRE
+
+- **Instruction**
+
+```bash
+EXPIRE KEY TTL 
+```
+
+- **Arguments**
+
+```
+KEY :-> string
+TTL :-> Number (Value in seconds)
+```
