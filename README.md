@@ -36,7 +36,7 @@ Launch Enigma DB in interactive mode to execute commands using the CLI.
 node dist/src/interactive.js
 ```
 
-## Example
+## INSTRUCTIONS
 
 ### 1. SET
 
@@ -51,8 +51,8 @@ SET KEY VALUE TTL
 - **Arguments**
 
 ```
-KEY :-> string
-VALUE :-> string
+KEY :-> string ( Don't add quotes )
+VALUE :-> string ( Don't add quotes )
 TTL :-> Number (Value in seconds)
 ```
 
@@ -69,7 +69,7 @@ GET KEY
 - **Arguments**
 
 ```
-KEY :-> string
+KEY :-> string ( Don't add quotes )
 ```
 
 ### 3. DELETE
@@ -85,7 +85,7 @@ DELETE KEY
 - **Arguments**
 
 ```
-KEY :-> string
+KEY :-> string ( Don't add quotes )
 ```
 
 ### 4. EXPIRE
@@ -101,6 +101,6 @@ EXPIRE KEY TTL
 - **Arguments**
 
 ```
-KEY :-> string
+KEY :-> string ( Don't add quotes )
 TTL :-> Number (Value in seconds)
 ```
