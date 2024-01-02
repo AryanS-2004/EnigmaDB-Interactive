@@ -40,6 +40,8 @@ node dist/src/interactive.js
 
 ### 1. SET
 
+Set the key with the given value and TTL(Time to Live) in the database.
+
 - **Instruction**
 
 ```bash
@@ -56,6 +58,8 @@ TTL :-> Number (Value in seconds)
 
 ### 2. GET
 
+Get the value against the given key only if the key exist and is not expired.
+
 - **Instruction**
 
 ```bash
@@ -70,6 +74,8 @@ KEY :-> string
 
 ### 3. DELETE
 
+Deletes the given key value pair from the database.
+
 - **Instruction**
   
 ```bash
@@ -83,6 +89,8 @@ KEY :-> string
 ```
 
 ### 4. EXPIRE
+
+Set the TTL against the given key only if is not expired or deleted.
 
 - **Instruction**
 
